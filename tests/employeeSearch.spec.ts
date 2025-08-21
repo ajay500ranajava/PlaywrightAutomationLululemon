@@ -46,6 +46,7 @@ await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/lo
 
   // 7. Click on the first returned result
   const firstRow = recordFound.first();
+  //first comment added -2
   await firstRow.click();
 
   // 8. Verify Personal Details screen with Employee Name displayed
